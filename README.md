@@ -24,7 +24,9 @@ docker-compose up
 
 - GET -> `http://localhost:8087/api/welcome` - Will print "Welcome to docker compose"
 
-## [Removing Docker Containers](#removing-docker-container)
+## [Stop and Remove Docker Containers](#removing-docker-container)
+
+# Prints the docker container id
 ```docker container ls -a -> Prints the docker container id```
 
 ```docker container rm <containerId>```
@@ -32,7 +34,7 @@ docker-compose up
 `Eg: docker container rm cc3f2ff51cab cd20b396a061`
 
 
-## [Removing Docker Image](#removing-docker-image)
+## [Remove Docker Image](#removing-docker-image)
 
 ```docker image ls -> Prints the docker image name and tag```
 
