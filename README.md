@@ -4,7 +4,7 @@
 
 Run spring boot application using docker compose
 
-## [Prerequisite](#Prerequisite)
+## [Prerequisite/ Libraries](#Prerequisite)
 * Docker 
 * Jdk 1.8
 
@@ -26,10 +26,17 @@ docker-compose up
 
 ## [Stop and Remove Docker Containers](#removing-docker-container)
 
-``# Prints the docker container id``
-```docker container ls -a -> Prints the docker container id```
+``# Prints the docker container id and image id``
 
-```docker container rm <containerId>```
+```docker container ls -a```
+
+``# Stop a running container before removing``
+
+```docker stop <container-id>```
+
+``# Removing a Stopped container``
+
+```docker container rm <container-id>>```
 
 `Eg: docker container rm cc3f2ff51cab cd20b396a061`
 
