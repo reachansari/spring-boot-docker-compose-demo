@@ -30,3 +30,12 @@ docker-compose up
 ```docker container rm <containerId>```
 
 `Eg: docker container rm cc3f2ff51cab cd20b396a061`
+
+
+## [Removing Docker Image](#removing-docker-image)
+
+```docker image ls -> Prints the docker image name and tag```
+
+```docker image rm <imageName>:<tag>```
+
+`Eg: docker image rm spring-boot-docker-example:latest`
