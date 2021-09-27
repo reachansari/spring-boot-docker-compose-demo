@@ -4,9 +4,11 @@
 
 Run spring boot application using docker compose
 
-## [Prerequisite/ Libraries](#Prerequisite)
+## [Prerequisite/ Libraries used](#Prerequisite)
 * Docker 
-* Jdk 1.8
+* Spring Boot
+* Spring Configuration
+* Spring REST Controller
 
 ## [Compilation command](#compilation-command)
 ```mvn clean package -DskipTests```
@@ -36,7 +38,7 @@ docker-compose up
 
 > Removing a stopped container
 
-```docker container rm <container-id>>```
+```docker container rm <container-id>```
 
 `Eg: docker container rm cc3f2ff51cab cd20b396a061`
 
