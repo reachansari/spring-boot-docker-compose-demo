@@ -26,7 +26,7 @@ docker-compose up
 
 ## [Stop and Remove Docker Containers](#removing-docker-container)
 
-``# Prints the docker container id and image id``
+>.# Prints the docker container id and image id
 
 ```docker container ls -a```
 
