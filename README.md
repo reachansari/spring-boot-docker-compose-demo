@@ -30,11 +30,11 @@ docker-compose up
 
 ```docker container ls -a```
 
-``# Stop a running container before removing``
+> Stop a running container before removing
 
 ```docker stop <container-id>```
 
-``# Removing a Stopped container``
+> Removing a stopped container
 
 ```docker container rm <container-id>>```
 
@@ -43,7 +43,11 @@ docker-compose up
 
 ## [Remove Docker Image](#removing-docker-image)
 
-```docker image ls -> Prints the docker image name and tag```
+>  Prints the docker image name and tag
+
+```docker image ls```
+
+> Removing a built image
 
 ```docker image rm <imageName>:<tag>```
 
